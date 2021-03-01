@@ -1,0 +1,23 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+/* different fonts for headers, #9 in notes
+
+	also
+	
+	simple css code; #10 in notes*/
+	body {background-color: black;}
+
+	h1 {color: red; text-align: center; font-family: Monaco; font-size: 25px}
+    
+    h2 {color: green; text-align: left; font-family: Avantgarde; font-size: 25px}
+    
+    h3 {color: blue; text-align: left; font-family: Brush Script MT; font-size: 25px}
+    
+    h4 {color: yellow; text-align: left; font-family: Ariel; font-size: 25px}
+    
+    h5 {color: purple; text-align: left; font-family: Comic Sans MS; font-size: 25px}
+
+	p {color: lightgrey; text-align: left; font-family: consolas; font-size: 20px;}

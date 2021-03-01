@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- notes / table of contents (TOC)
+
+This Assignment contains:
+
+A)
+	These tags:
+	1. <b> </b>
+	2. <i> </i>
+	3. <u> </u>
+	4. <hr>
+	5. <br>
+
+B)
+	The use/inclusion of these aspects:
+
+	6. Resume sections for: 
+    	6.1: Objectives, 
+        6.2: Skills
+        6.3: employment 
+        6.4: history
+	7. external or internal Image(s)
+	8. Link to external video ( example  any Youtube video)
+	9. Different fonts for different headers
+	10. Simple CSS code
+	11. Simple JavaScript Code
+
+-->
+
+<html>
+	<head>
+	<link rel="stylesheet" href="style.css">
+    <!-- css syle choices / Simple CSS code; #10 in notes -->
+	
+		<title>  
+		Paul Kostic
+		</title>
+		
+	
+	</head>
+	<body>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+      <h1>
+      	<!-- use of the <br>, linebreak/newline tag; #5 in notes -->
+		<br>
+        My name is Paul Kostic,
+      </h1>
+        
+      <p>
+	 
+        I am 20 years old, in my second year of mission college, <br>
+		and am currently pursuing a degree in computer science. <br>
+		<!-- link to external video; #8 in notes -->
+		<center> <a href="https://www.youtube.com/watch?v=0Gkhol2Q1og"> Some Tunes </a>
+		<br>
+		</p>
+		
+		<!-- image; #7 in notes -->
+			 
+	 <p>
+		<center> <img src="Images/generic1.jpg" alt="No Image Found" id="image"> </center>
+     </p>
+	  
+	  <!-- simple JavaScript Code; #11 in notes -->
+	  <button type="button" 
+	  onclick="toggle()">
+	  Toggle Image!</button>
+	  
+	  <script>
+	  var click = 0;
+	  
+	  function toggle()
+	  {
+	  if (click == 1)
+	  click = 0;
+	  else
+	  click = 1;
+	  
+	  if (click == 1)
+	  document.getElementById('image').style.display='none';
+	  else
+	  document.getElementById('image').style.display='block'
+	  }
+	  </script>
+      <!-- end of simple javaScript code; -->
+	  
+	  
+       	<!-- use of the <hr> horizontal rule tag; #4 in notes -->
+        <hr>
+		
+<!-- objectives portion; # 6.1 in notes -->
+      <h2>
+       Objectives
+      </h2>
+      
+      <p>
+       My Objectives are that of stable income, reasonable hours, moderate workloads, and a measure of respect/consideration. If I find these objectives to not be met, I will take appropriate measures to attempt to meet them. I will negotiate if possible, and leave if I find redress imposible.
+      </p>
+       
+        <!-- use of the <u> bold underline; #3 in notes-->
+        
+      <p>
+		My current "<u>Career Goals</u>", if they can be described as such, include transferring <br>
+		to a four year institution which will allow me to further my education.  Of course,
+		
+        I also plan to eventually use these skills to attain employment at a relevant establishment,
+        
+        <!-- use of the <i> italics tag; # 2 in notes -->
+		otherwise known as <i> Getting A Job. </i>
+	   </p>
+        
+      	<hr>
+<!-- end of objectives 6.1 portion; #6.2 in notes -->
+
+	  <h3>
+       Skills
+      <h3>
+      
+      <p>
+       Languages: <br>
+       1. C++ <br>
+       2. C <br>
+       2. Java <br>
+       3. Python <br>
+       4. (a bit of) Lua <br>
+       5. (very little of) HTML5 <br>
+       6. (very little of) CSS <br>
+       7. (very little of) JavaScript <br>
+        <br>
+       Proficent in English, no other spoken language. <br>
+       
+        <br>
+       Working understanding of: <br>
+        <br>
+       Object Oriented Programming <br>
+       Newtonian Physics <br>
+       Formal Logic <br>
+       Discrete Math <br>
+       Psychology: general. <br>
+       Psychology: behavioral and evolutionary.<br>
+       Chemisty: simple inorganic, acid base, calorimetry. <br>
+      </p>
+	  
+	  <hr>
+<!-- end of skills portion; #6.2 in notes -->
+
+
+<!-- employment section; #6.3 in notes -->
+	<h4> Employment
+	<h4>
+    <p>N/A</p>
+    <hr>
+<!-- end of employment section; #6.3 in notes-->
+
+<!-- History section; #6.4 in notes -->
+	<h5> History
+	<h5>
+    <p>
+	<br>
+    Elementary school at Noble, San Jose, CA <br>
+    Middle school at Piedmont Middle School; also San Jose, CA <br>
+    High School at Piedmont Hills High School; also San Jose, CA <br>
+	Mission College, Santa Clara, CA <br>
+	here is a link to the mission College Website:
+	<a href="https://missioncollege.edu/"> Visit Mission!</a>
+
+	<hr>
+        <!-- use of the <b> bold tag; #1 in notes -->
+       <p>
+		This is my  "<b>Whatever</b>" paragraph. These are my 'few sentences'. <br>
+	   </p>
+	
+		
+		
+	</body>
+</html>
